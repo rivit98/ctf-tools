@@ -1,4 +1,4 @@
-# Collection of ctf tools, scripts, docs, ideas
+# Collection of ctf tools, scripts, docs
 
 ## Useful links:
 
